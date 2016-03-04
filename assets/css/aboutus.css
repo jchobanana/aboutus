@@ -73,6 +73,7 @@ img {
 
 #nav a {
   padding: 0 15px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: capitalize;
 }
