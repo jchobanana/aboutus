@@ -32,6 +32,11 @@ img {
     margin: 0 auto;
 }
 
+#header {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(236,236,236);
+}
 .clearfix:after {
     content: "";
     display: table;
@@ -58,8 +63,10 @@ img {
 
 #logo {
   float:left;
-  padding-left: 20px;
-  padding-top: 30px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 40px;
+
 }
 
 #nav {
@@ -73,7 +80,7 @@ img {
 
 #nav a {
   padding: 0 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -84,13 +91,14 @@ img {
 
 /* .header */
 .header {
+  background-position: center;
   text-align: center;
   color: #fff;
   background-image: url(http://lorempixel.com/1000/500/);
 }
 
 .header .wrapper {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 .header h1 {
@@ -99,15 +107,186 @@ img {
 
 #breadcrumbs a {
   text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 10pt;
   color: #fff;
 }
 
 /* Intro */
+
+
 .history {
   float: left;
 }
 
-.datagraph {
-  float: right;
+.history h3 {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 120px;
+  margin-left: 80px;
+  font-size: 10pt;
+  letter-spacing: 6px;
+  color: #1ED3A6;
+}
 
+.history h2 {
+  margin-left: 80px;
+  text-transform: capitalize;
+  font-size: 14pt;
+  line-height: 30pt;
+}
+
+.history .text {
+  margin-left: 80px;
+  width: 40%;
+  margin-bottom: 80px;
+}
+
+.dataimage {
+  margin-right: 80px;
+  margin-top: -420px;
+  float: right;
+  width: 42%;
+}
+
+/*.text {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}*/
+
+/* #video */
+
+#video .container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+#video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .team */
+
+.team {
+  margin: 125px auto;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 120px;
+  font-size: 9pt;
+  letter-spacing: 4px;
+  color: #1ED3A6;
+}
+
+.team h1 {
+  text-transform: uppercase;
+  font-size: 18pt;
+  word-spacing: 4pt;
+  line-height: 30pt;
+}
+
+.team.container {
+  width: 100%;
+}
+.team img {
+  overflow: hidden;
+  margin:20px 10px 50px 54px;
+  float: left;
+  width: 300px;
+
+}
+
+/* .purchase */
+
+.purchase {
+  width: 100%;
+  height: 370px;
+  background-color: rgb(189, 195, 199);
+    text-align: center;
+
+}
+
+.purchase h2 {
+  padding-top:142px;
+  font-size: 22pt;
+}
+
+.button {
+  text-transform: uppercase;
+  display: block;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 460px;
+  margin-right: 460px;
+  font-size: 12pt;
+  color: white;
+  background-color: #00D4A5;
+}
+
+/* .Contacts*/
+
+.Infos {
+  position: absolute;
+  width: 30%;
+  float: left;
+  text-align: left;
+  margin: 40px 20px 150px;
+}
+
+.left {
+  position: relative;
+  text-align: left;
+/*  padding-top: 20px;
+  padding-left: 20px;*/
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  margin-top: -120px;
+  padding: 0 300px;
+}
+
+.right {
+  position: relative;
+  margin-top: -120px;
+  float: right;
+  text-align: right;
+  width: 200px;
+}
+
+/* #footer*/
+
+#footer p {
+  float: left;
+  margin-top: 280px;
+  margin-bottom: 10px;
+}
+
+#footer ul {
+  float: right;
+}
+
+#footer li {
+  float:left;
+  padding: 5px;
+  margin-top: 280px;
+  margin-bottom: 10px;
+}
+
+#footer a:hover {
+    color: #1ED3A6;
 }
